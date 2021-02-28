@@ -35,10 +35,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5 \
     ro.opa.eligible_device=true
-
-## Turbo
-# Only include on Pixels
-ifneq ($(filter $(TURBO_CODENAMES),$(TARGET_PRODUCT)),)
-$(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
-PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-turbo
-endif
