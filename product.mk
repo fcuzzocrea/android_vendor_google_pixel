@@ -1,8 +1,5 @@
 include vendor/google_pixel/codenames.mk
 
-## Exclude us from RRO enforcement, as it is broken at the moment
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google_pixel
-
 ## Google Fonts
 # LineageOS already defines font_customization.xml, and there's no way to override it.
 # Therefore, on LineageOS run `repopick -f 289513` prior to every build.

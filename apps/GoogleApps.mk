@@ -52,4 +52,3 @@ PRODUCT_COPY_FILES += \
     vendor/google_pixel/apps/permissions/privapp-permissions-pixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixel.xml
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-gms
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google_pixel/overlays/overlay-gms
