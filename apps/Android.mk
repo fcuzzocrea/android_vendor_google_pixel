@@ -60,7 +60,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_SRC_FILES := apks/$(LOCAL_MODULE).apk
-LOCAL_OVERRIDES_PACKAGES := SearchLauncherQuickStep
+LOCAL_OVERRIDES_PACKAGES := SearchLauncherQuickStep Trebuchet TrebuchetGo TrebuchetQuickStep TrebuchetQuickStepGo
 LOCAL_SYSTEM_EXT_MODULE := true
 include $(BUILD_PREBUILT)
 
