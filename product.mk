@@ -34,7 +34,7 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-theme
 PRODUCT_PRODUCT_PROPERTIES += ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel;com.android.internal.systemui.navbar.gestural;com.android.theme.icon.circle \
+    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel;com.android.theme.icon.circle \
     ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5 \
     ro.opa.eligible_device=true
