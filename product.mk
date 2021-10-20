@@ -1,12 +1,8 @@
 include vendor/google_pixel/codenames.mk
 
 ## Google Fonts
-# LineageOS already defines font_customization.xml, and there's no way to override it.
-# Therefore, on LineageOS run `repopick -f 289513` prior to every build.
-ifndef LINEAGE_BUILD
 PRODUCT_COPY_FILES += \
    vendor/google_pixel/google-fonts/google-fonts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-endif
 
 PRODUCT_PACKAGES += \
     GoogleFonts
@@ -22,13 +18,18 @@ endif
 
 ## Pixel Theme
 PRODUCT_PACKAGES += \
-    PixelTheme \
     PixelQuickstep
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-theme
 PRODUCT_PRODUCT_PROPERTIES += ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel;com.android.internal.systemui.navbar.gestural;com.android.theme.icon.circle \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.android.theme.icon.circle \
     ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5 \
-    ro.opa.eligible_device=true
+    ro.opa.eligible_device=true \
+    ro.setupwizard.enterprise_mode=1 \
+    ro.setupwizard.esim_cid_ignore=00000001 \
+    setupwizard.feature.baseline_setupwizard_enabled=true \
+    setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
+    setupwizard.feature.show_pixel_tos=true \
+    setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
