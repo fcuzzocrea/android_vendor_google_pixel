@@ -18,7 +18,8 @@ endif
 
 ## Pixel Theme
 PRODUCT_PACKAGES += \
-    PixelQuickstep
+    PixelQuickstep \
+    PixelSetupWizardStringsOverlay
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-theme
 PRODUCT_PRODUCT_PROPERTIES += ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent

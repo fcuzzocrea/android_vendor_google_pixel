@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android bruker Motion Sense til å oppdage bevegelser i nærheten. Funksjonen bruker ikke kamera, mikrofon eller posisjon.</string>
+     <string name="bc_welcome_message">Velkommen til Android</string>
+     <string name="deferred_setup_wizard_title">Fullfør konfigureringen av Android</string>
+     <string name="device_name">Android</string>
+     <string name="setup_wizard_title">Android-konfigurering</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android bruker Motion Sense til å oppdage bevegelser i nærheten. Funksjonen bruker ikke kamera, mikrofon eller posisjon.</string>
+</resources>
