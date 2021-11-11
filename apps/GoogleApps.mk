@@ -20,12 +20,6 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2020
 endif
 
-## Only build Pixel exclusives on Pixels
-ifneq ($(filter $(PIXEL_CODENAMES),$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGES += \
-    GoogleCamera
-endif
-
 ## Only build DevicePersonalizationServices on non-Pixels
 ifeq ($(filter $(PIXEL_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
