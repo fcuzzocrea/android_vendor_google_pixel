@@ -34,13 +34,13 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     PixelSetupWizardOverlay \
     PlayAutoInstallConfig \
-    TurboPrebuilt
+    TurboPrebuilt \
+    WallpaperPickerGooglePrebuilt
 
 ## Extra packages
 ifneq ($(WITH_GMS_MINIMAL),true)
 PRODUCT_PACKAGES += \
-    MarkupGoogle \
-    WallpaperPickerGooglePrebuilt
+    MarkupGoogle
 endif
 
 ## Privledged App Permissions
