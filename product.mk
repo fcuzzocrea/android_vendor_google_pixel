@@ -34,3 +34,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
     setupwizard.feature.show_pixel_tos=true \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+
+# Artifact Path Exclusions
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/GoogleExtShared/GoogleExtShared.apk \
+    system/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk \
+    system/etc/permissions/privapp-permissions-pixel-s.xml \
+    system/etc/permissions/privapp-permissions-pixel.xml \
+    system/priv-app/GoogleExtServices/GoogleExtServices.apk
+
