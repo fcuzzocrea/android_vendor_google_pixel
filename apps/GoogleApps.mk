@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     PixelSetupWizardOverlay \
     PlayAutoInstallConfig \
+    RecorderPrebuilt \
     TurboPrebuilt \
     WallpaperPickerGooglePrebuilt
 
