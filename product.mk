@@ -18,7 +18,6 @@ endif
 
 ## Pixel Theme
 PRODUCT_PACKAGES += \
-    PixelQuickstep \
     PixelSetupWizardStringsOverlay
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/google_pixel/overlays/overlay-theme
