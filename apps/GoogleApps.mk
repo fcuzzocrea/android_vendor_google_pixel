@@ -25,6 +25,10 @@ ifeq ($(filter $(PIXEL_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt2021 \
     DevicePersonalizationPrebuiltPixel2021
+
+# AiAi Allowlist
+PRODUCT_COPY_FILES += \
+    vendor/google_pixel/apps/sysconfig/aiai_allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/aiai_allowlist.xml
 endif
 
 ## Core packages
