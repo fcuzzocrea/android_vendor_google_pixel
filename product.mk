@@ -27,6 +27,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     setupwizard.feature.show_pixel_tos=true \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
 
+# Pixel Theme Picker
+PRODUCT_PACKAGES += \
+    NexusLauncherOverlay
+
 # Artifact Path Exclusions
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/app/GoogleExtShared/GoogleExtShared.apk \
