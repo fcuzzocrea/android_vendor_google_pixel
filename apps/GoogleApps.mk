@@ -21,11 +21,11 @@ PRODUCT_PACKAGES += \
 endif
 
 ## Only build DevicePersonalizationServices on non-Pixels
-ifeq ($(filter $(PIXEL_CODENAMES),$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGES += \
-    DeviceIntelligenceNetworkPrebuilt2021 \
-    DevicePersonalizationPrebuiltPixel2021
-endif
+#ifeq ($(filter $(PIXEL_CODENAMES),$(TARGET_PRODUCT)),)
+#PRODUCT_PACKAGES += \
+#    DeviceIntelligenceNetworkPrebuilt2021 \
+#    DevicePersonalizationPrebuiltPixel2021
+#endif
 
 ## Core packages
 PRODUCT_PACKAGES += \
