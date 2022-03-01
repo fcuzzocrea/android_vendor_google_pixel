@@ -40,5 +40,5 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk \
     system/etc/permissions/privapp-permissions-pixel-s.xml \
     system/etc/permissions/privapp-permissions-pixel.xml \
-    system/priv-app/GoogleExtServices/GoogleExtServices.apk
+    system/priv-app/GoogleExtServicesMobile/GoogleExtServicesMobile.apk
 

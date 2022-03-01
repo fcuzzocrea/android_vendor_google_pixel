@@ -29,7 +29,7 @@ endif
 
 ## Core packages
 PRODUCT_PACKAGES += \
-    GoogleExtServices \
+    GoogleExtServicesMobile \
     NexusLauncherRelease \
     PixelSetupWizard \
     PixelSetupWizardOverlay \

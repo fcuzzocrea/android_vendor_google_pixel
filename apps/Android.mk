@@ -27,7 +27,7 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleExtServices
+LOCAL_MODULE := GoogleExtServicesMobile
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
