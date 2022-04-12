@@ -55,6 +55,7 @@ android_app {
     static_libs: [
         "wallpaper-common-deps",
         "SettingsLibSettingsTheme",
+        "SystemUIFlagsLib",
         "SystemUI-statsd",
         "styleprotoslite",
     ],
