@@ -18,4 +18,9 @@
     <!-- The name of this application, a theme picker. [CHAR LIMIT=50] -->
     <string name="app_name">Styles</string>
 
+    <!-- Color Section -->
+    <string name="wallpaper_color_tab">Wallpaper colors</string>
+    <string name="wallpaper_color_title">Wallpaper color</string>
+    <string name="preset_color_tab">Basic colors</string>
+    <string name="color_changed">Color changed</string>
 </resources>
