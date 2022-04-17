@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.android.wallpaper">
+
+    <uses-sdk android:targetSdkVersion="32" android:minSdkVersion="28"/>
+
+    <application
+        tools:replace="android:name"
+        android:extractNativeLibs="false"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:requiredForAllUsers="true"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:name="com.google.android.customization.picker.GoogleCustomizationPickerApplication"
+        android:theme="@style/CustomizationTheme">
+        <activity
+            tools:node="replace"
+            android:name="com.android.wallpaper.picker.CustomizationPickerActivity"
+            android:label="@string/app_name"
+            android:relinquishTaskIdentity="true"
+            android:resizeableActivity="false"
+            android:theme="@style/CustomizationTheme.NoActionBar"
+            android:exported="false"/>
+
+        <activity-alias
+            android:name="com.google.android.customization.picker.GoogleCustomizationPickerActivity"
+            android:targetActivity="com.android.wallpaper.picker.CustomizationPickerActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.SET_WALLPAPER"/>
+                 <category android:name="android.intent.category.DEFAULT"/>
+             </intent-filter>
+        </activity-alias>
+
+    </application>
+
+</manifest>
