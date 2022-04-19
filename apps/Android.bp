@@ -9,3 +9,14 @@ android_app_import {
         },
         product_specific: true,
 }
+
+android_app_import {
+        name: "PixelThemesStub",
+        owner: "google",
+        apk: "apks/PixelThemesStub.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        product_specific: true,
+}
