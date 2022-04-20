@@ -84,4 +84,9 @@ android_app {
     additional_manifests: [":WallpaperPicker2_Manifest", ":ThemePicker_Manifest"],
 
     overrides: ["ThemePicker", "WallpaperPicker2", "WallpaperPicker"],
+
+    required: [
+        "privapp_whitelist_com.android.wallpaper",
+        "default_permissions_com.android.wallpaper",
+    ],
 }
