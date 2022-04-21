@@ -1,12 +1,5 @@
 include vendor/google_pixel/codenames.mk
 
-## Google Fonts
-#PRODUCT_COPY_FILES += \
-#   vendor/google_pixel/google-fonts/google-fonts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-PRODUCT_PACKAGES += \
-    GoogleFonts
-
 ## Pixel Apps
 include vendor/google_pixel/apps/GoogleApps.mk
 
