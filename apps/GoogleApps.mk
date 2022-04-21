@@ -34,14 +34,14 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     PixelSetupWizardOverlay \
     PlayAutoInstallConfig \
-    RecorderPrebuilt \
     TurboPrebuilt \
     WallpaperPickerGooglePrebuilt
 
 ## Extra packages
 ifneq ($(WITH_GMS_MINIMAL),true)
 PRODUCT_PACKAGES += \
-    MarkupGoogle
+    MarkupGoogle \
+    RecorderPrebuilt
 endif
 
 ## Privledged App Permissions
