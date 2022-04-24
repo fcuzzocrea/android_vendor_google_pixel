@@ -29,6 +29,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Pixel Theme Picker
 PRODUCT_PACKAGES += \
+    ThemePickerGoogle \
     NexusLauncherOverlay
 
 # Artifact Path Exclusions
