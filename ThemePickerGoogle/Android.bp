@@ -103,7 +103,7 @@ android_app {
     manifest: "AndroidManifest.xml",
     additional_manifests: [":WallpaperPicker2_Manifest", ":ThemePicker_Manifest"],
 
-    overrides: ["ThemePicker", "WallpaperPicker2", "WallpaperPicker"],
+    overrides: ["ThemePicker", "WallpaperPicker2", "WallpaperPicker", "WallpaperPickerGooglePrebuilt"],
 
     required: [
         "privapp_whitelist_com.android.wallpaper",
