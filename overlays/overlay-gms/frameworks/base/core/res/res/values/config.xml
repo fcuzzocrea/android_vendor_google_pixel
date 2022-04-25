@@ -224,6 +224,9 @@
 	<!-- Whether this device is supporting the camera toggle -->
     <bool name="config_supportsMicToggle">true</bool>
 
+    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
+    <bool name="config_defaultRingtonePickerEnabled">false</bool>
+
     <!-- Control the behavior when the user presses the power and volume up buttons together.
             0 - Nothing
             1 - Mute toggle
