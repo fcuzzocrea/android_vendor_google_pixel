@@ -1,23 +1,28 @@
 ## Build appropriate year wallpaper package on Pixels
 ifneq ($(filter $(PIXEL2016_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt
+    NexusWallpapersStubPrebuilt \
+    GoogleCameraLegacy
 endif
 ifneq ($(filter $(PIXEL2017_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2017
+    NexusWallpapersStubPrebuilt2017 \
+    GoogleCameraLegacy
 endif
 ifneq ($(filter $(PIXEL2018_CODENAMES) $(PIXEL2019_MIDYEAR_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2018
+    NexusWallpapersStubPrebuilt2018 \
+    GoogleCamera
 endif
 ifneq ($(filter $(PIXEL2019_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2019
+    NexusWallpapersStubPrebuilt2019 \
+    GoogleCamera
 endif
 ifneq ($(filter $(PIXEL2020_CODENAMES),$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    PixelWallpapers2020
+    PixelWallpapers2020 \
+    GoogleCamera
 endif
 
 ## Only build DevicePersonalizationServices on non-Pixels

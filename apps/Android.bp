@@ -11,6 +11,18 @@ android_app_import {
 }
 
 android_app_import {
+        name: "GoogleCameraLegacy",
+        owner: "google",
+        apk: "apks/GoogleCameraLegacy.apk",
+        overrides: ["Camera2", "Snap"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        product_specific: true,
+}
+
+android_app_import {
         name: "PixelThemesStub",
         owner: "google",
         apk: "apks/PixelThemesStub.apk",
