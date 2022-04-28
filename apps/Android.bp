@@ -1,4 +1,15 @@
 android_app_import {
+        name: "FlipendoPrebuilt",
+        owner: "google",
+        apk: "apks/FlipendoPrebuilt.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        system_ext_specific: true,
+}
+
+android_app_import {
         name: "GoogleCamera",
         owner: "google",
         apk: "apks/GoogleCamera.apk",

@@ -40,3 +40,6 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/permissions/privapp-permissions-pixel.xml \
     system/priv-app/GoogleExtServicesMobile/GoogleExtServicesMobile.apk
 
+## Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    hardware/google/pixel-sepolicy/flipendo

@@ -38,6 +38,7 @@ endif
 
 ## Core packages
 PRODUCT_PACKAGES += \
+    FlipendoPrebuilt \
     GoogleExtServicesMobile \
     NexusLauncherRelease \
     PixelSetupWizard \
